@@ -195,3 +195,4 @@ if st.button("🔮 ANALIZZA CON POTENZA DI CALCOLO V13"):
     best_bet = res_df.loc[res_df['Edge %'].idxmax()]
     st.success(f"🎯 **MIGLIORE OPPORTUNITÀ:** {best_bet['Match']} -> Segno {best_bet['Segno']} (Edge: {best_bet['Edge %']:.2%})")
 
+
