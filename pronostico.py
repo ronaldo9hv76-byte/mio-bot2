@@ -130,3 +130,4 @@ if st.button("🎯 ATTIVA PROTOCOLLO SNIPER"):
         st.markdown("### 🏹 RESPONSO PREDITTIVO")
         st.dataframe(res_df.style.format({"PROB. VITTORIA": "{:.1%}"}).highlight_max(axis=0, subset=['PROB. VITTORIA'], color='#4d0000'), use_container_width=True, hide_index=True)
 
+
